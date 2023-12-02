@@ -14,9 +14,9 @@ where
     <ParseAs as FromStr>::Err: Debug,
 {
     let input = match input {
-        Input::Real => include_str!("input.txt"),
-        Input::Test1 => include_str!("test_input_1.txt"),
-        Input::Test2 => include_str!("test_input_2.txt"),
+        Input::Real => include_str!("real.txt"),
+        Input::Test1 => include_str!("test_1.txt"),
+        Input::Test2 => include_str!("test_2.txt"),
     };
 
     input
